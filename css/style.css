@@ -1,0 +1,122 @@
+/* 清除默认样式 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td {
+    padding: 0;
+}
+
+/* 顶部样式 */
+header {
+    width: 100%;
+    height: 60px;
+    background: #169BD5;
+}
+
+header>a>img {
+    width: 128px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+/* 主体样式 */
+section {
+    width: 100%;
+    position: relative;
+}
+
+/* 主体表格样式 */
+section>table {
+    border: 2px solid #CCCCCC;
+    width: 100%;
+    border-right: none;
+}
+
+/* 主体左侧样式 */
+section .left {
+    width: 12%;
+    font-family: "微软雅黑";
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+section .left>p {
+    padding-bottom: 20px;
+}
+
+section .left>h4 {
+    padding: 20px 0;
+}
+
+section .left>p:nth-child(8) {
+    padding-top: 20px;
+}
+
+/* 主体右侧样式 */
+section .right {
+    width: 88%;
+    font-family: "微软雅黑";
+}
+
+section .right>table {
+
+    width: 100%;
+}
+
+/* 全部订单样式 */
+section .right>.all-orders {
+    border: 5px solid #CCCCCC;
+    height: 50px;
+    line-height: 50px;
+}
+
+/* 时间查询样式 */
+section .right>.inquire {
+    border: 5px solid #CCCCCC;
+    border-top: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+/* 订单列表样式 */
+section .right>.order-list {
+    border: 5px solid #CCCCCC;
+    border-top: none;
+    line-height: 50px;
+    text-align: center;
+}
+
+section .right>.order-list tr {
+    height: 54px;
+}
+
+section .right>.order-list tr:nth-child(1) {
+    height: 50px;
+}
+
+section .right>.order-list tr td img:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+/* 页脚样式 */
+footer {
+    width: 100%;
+    height: 60px;
+    background: #169BD5;
+    line-height: 60px;
+    text-align: center;
+    font-family: "微软雅黑";
+}
